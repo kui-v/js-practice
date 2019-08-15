@@ -1,0 +1,24 @@
+1. Select elements
+    access elements using jQuery's CSS-style selectors rather than DOM queries
+2. Perofrm tasks
+    update DOM tree, animate elements, loop through set of elements easily
+3. Handle events
+    attach event listeners to selected elements without
+    having to write any fallback code to support older browsers
+
+jQuery = JS file included in web page
+
+find elements using CSS-style selectors
+    $('<tag>.<attribute>') or jQuery('<tag>.<attribute>')
+
+do stuff with those elements using jQuery methods
+    $('<tag>.<attribute>).<method>;
+    ex: $('li.hot').addClass('complete');
+
+Difference from DOM
+    cross-browser; compatible
+    element selection easier and more accurate
+    event handling simpler
+    methods affect all selected elements w/o need to loop
+    additional methods provided for populat tasks, s.a. animation
+    once made selection, apply multiple methods to it
