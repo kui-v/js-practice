@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Testing DOM Element Grouping</title>
+  </head>
+  <body>
+    <h1>Testing DOM Element Grouping</h1>
+    <li>out of scope test</li>
+    <section id="focus">
+      <li>test1</li>
+      <li id="middle">test2</li>
+      <li>test3</li>
+    </section>
+    <li id="moreElements">testing with <b>more</b> elements</li>
+    <h1 id="toBeDeleted">This text to be deleted</h1>
+    <h1 id="passMsg"></h1>
+    <script src="exclusionTest.js"></script>
+    <script src="deletionDOM.js"></script>
+  </body>
+</html>
